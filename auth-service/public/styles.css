@@ -1,0 +1,109 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex: content;
+    flex-wrap: wrap;
+    background: linear-gradient(-45deg, yellow, orangered);
+    width: 100%;
+    height: 100vh;
+}
+
+#container-login{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: linear-gradient(-45deg, deepskyblue, black);
+}
+
+#container-error{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: linear-gradient(-45deg, red, black);
+}
+
+#container-dashboard{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background: linear-gradient(-45deg, greenyellow, black);
+}
+
+#send-btn{
+    width: 40%;
+    height: 40px;
+    color: black;
+    font-weight: bold;
+    background: greenyellow;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#register-btn{
+    width: 40%;
+    height: 40px;
+    color: black;
+    font-weight: bold;
+    background: cornflowerblue;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+input {
+    background: black;
+    width: 100%;
+    height: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+}
+
+#main-div {
+    background: linear-gradient(-45deg, black, red);
+}
+
+#user-info{
+    width: 90%;
+    height: 50%;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(-45deg, lightslategrey, black);
+    color: white;
+}
+
+#user-info > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+
+#logout-btn {
+    width: 40%;
+    height: 40px;
+    color: black;
+    font-weight: bold;
+    background: red;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+}
